@@ -1,0 +1,163 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day-stay safe", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+    {"tag": "uses",
+         "patterns": ["How could you help me?", "What you can do?","what do you do","who are you?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can help you to guideyoga-asanas, exercises to make you healthy!!\nPlease enter a problem or name of Asana i could help with..\nCheck out different types of asanas available."],
+         "context": [""]
+        },
+    {"tag": "types",
+         "patterns": ["How many types of asanas are there?","List of asanas","list","Asanas list","Types of asanas", "asana types", "asanas", "asana poses","exercises"],
+         "responses": ["\n-Shavasana\n-Bhastrika\n-Bhramari\n-Vajrasana\n-Sukhasana\n-Makarasana\n-Salabhasana\n-Sashankasana"],
+         "context": [""]
+        },
+
+        
+        
+    {"tag": "asanas",
+         "patterns": ["shavasana","easiest asana"],
+         "responses": ["\n--Lie down on your back taking attention to different body parts one by one.\n--Slowly relax the entire body."],
+         "context": [""]
+        },
+    {"tag": "covid",
+         "patterns": ["covid19","covid","corona"],
+         "responses": ["\n--Use triple layer mask and sanitizer.\n--Isolate yourself in a well ventilated room.\n--Monitor temperature and oxygen regularly.\n--Take rest and drink a lot of fluids to maintain adequate hydration.\n--Perform warm water gargles or take steam inhalation twice a day.\n--Seek immediate medical attention if you find difficulty in breathing."],
+         "context": [""]
+        },
+    {"tag": "fever",
+         "patterns": ["fever"],
+         "responses": ["\n--Medications such as paracetamol and ibuprofen may help to ease discomfort for adults\n--Drink plenty of fluids, particularly water.\n--Sponge exposed skin with tepid water.\n--Avoid alcohol, tea and coffee as these drinks can cause slight dehydration\n--Consult a doctor."],
+         "context": [""]
+        },
+    {"tag": "eye",
+         "patterns": ["eye sight","vision"],
+         "responses": ["\n--Eating carrots is good for your vision.\n--Exercises:Hold your pointer finger a few inches away from your eye.\n--Focus on your finger.\n--Slowly move your finger away from your face, holding your focus.\n--Look away for a moment, into the distance.\n--Focus on your outstretched finger and slowly bring it back toward your eye."],
+         "context": [""]
+        },
+    {"tag": "cold",
+         "patterns": ["cold","cough"],
+         "responses": ["\n--Your body needs rest to heal.\n--Stay hydrated.\n--Honey may help coughs in adults and children who are older than age 1. Try it in hot tea.\n--Salt-water gargle.\n--Ginger may ease a dry or asthmatic cough, as it has anti-inflammatory properties.\n--Steam Inhalation can help you to get rid of cold."],
+         "context": [""]
+        },
+    {"tag": "asthama",
+         "patterns": ["asthama","asthma"],
+         "responses": ["\n--Take steam using eucalyptus oil.\n--Avoid pollen,pollution,dust and smoke.\n--Doing Bhramari Pranayama everyday helps you to cure asthama."],
+         "context": ["bhramari"]
+        },
+    {"tag": "liver diseases",
+         "patterns": ["liver"],
+         "responses": ["\n--Avoid foods with added sugars.\n--Try an Omega-3 supplement\n--Consult a doctor immediately.\n--Doing Vajrasana improves liver functionality."],
+         "context": ["asanas_4"]
+        },
+    
+    {"tag": "asanas_1",
+         "patterns": ["Bhastrika","Bhastrikasana"],
+         "responses": ["\n--Close eyes,ears,mouth with 'index-middle',thumbs and ring-little fingers respectively.\n--Take a deep breath and exhale with a soft humming sound like the bees."],
+         "context": [""]
+        },
+    {"tag": "asanas_2",
+         "patterns": ["Bhramari","Bhramari pranayama"],
+         "responses": ["\n--Sit in padmasana or Sukhasana.\n--Close the right nostril,Forcefully and rapidly breathe from the left nostril twenty times.\n--Do the same on right side twenty times.\n--This is one round.Practice 1 to 3 rounds in summer and 3 to 5 in winters.\n--Should be done by persons with weak constitution / poor lung capacity /eye or ear complaints / blood pressure."],
+     "context": [""]
+        },
+    {"tag": "asanas_3",
+         "patterns": ["Sashankasana","Rabbit Pose","Shashankasana"],
+         "responses": ["Sashankasana-the rabbit pose:\n--Sit in Vajrasana,inhailing  raise arms, while exhailing bend forward (arms should remain straight and near the ears).\n--Place forehead and forearms on the ground.\n--Breath normally 10 times , slowly come back while inhailing , bring down hands and place on things.\n--This can be repeated around 5 times.\n--To be avoided by persons with spinal discherniation, vertigo and high blood pressure."],
+         "context": [""]
+        },
+    {"tag": "asanas_4",
+         "patterns": ["Vajrasana","digestion"],
+         "responses": ["Vajrasana:\n--Sit on your knees with a straight posture and upright spine, feet should rest flat on the ground with soles turned upward.\n--Focus on your breathing.\n--Avoid doing in case of any leg or knee injury.\n--Good for digestion and liver function."],
+         "context": [""]
+        },
+    {"tag": "asanas_5",
+         "patterns": ["Salabhasana","grasshopper pose"],
+         "responses": ["Salabhasana-the grasshopper pose:\n--Lie on your stomach with the chin stretched and touching the ground.\n--Keep the hands on the side and bring them under the legs to support them.\n--Inhale slowly and deeply and lift the legs as high as possible.\n--It is a back bend, or spine stretch, utilizing the strength of the upper and middle back.\n--Should not be done by pregnant women and those who have had any abdominal surgery in the recent past or having spinal injuries."],
+         "context": [""]
+        },
+    
+    {"tag": "asanas_6",
+         "patterns": ["Sukhasana","lotus posture"],
+         "responses": ["Sukhasana-lotus posture:\n--The 'Simple Cross-Legged Pose' is intended to be comfortable and calming.\n--Sitting upright with your spine aligned also reduces stress and anxiety."],
+         "context": [""]
+        },
+    {"tag": "asanas_7",
+         "patterns": ["Makarasana"],
+         "responses": ["Makarasana-the crocodile pose:\n--Lie on the ground face down and both legs stretched out.\n--Catch the headwith the arms or the face with the palms as given above."],
+         "context": [""]
+        },
+    
+
+      
+    
+    {"tag": "options",
+        "patterns": ["yell"],
+         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+         "context": [""]
+        },
+       {"tag": "adverse_drug",
+         "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
+         "responses": ["Navigating to Adverse drug reaction module"],
+         "context": [""]
+        },
+       {"tag": "blood_pressure",
+        "patterns": ["Open blood pressure module", "Task related to blood pressure", "Blood pressure data entry", "I want to log blood pressure results", "Blood pressure data management" ],
+         "responses": ["Navigating to Blood Pressure module"],
+         "context": [""]
+        },
+        {"tag": "blood_pressure_search",
+         "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
+         "responses": ["Please provide Patient ID", "Patient ID?"],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "search_blood_pressure_by_patient_id",
+         "patterns": [],
+         "responses": ["Loading Blood pressure result for Patient"],
+         "context": [""]
+        },
+    
+       {"tag": "pharmacy_search",
+         "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
+         "responses": ["Please provide pharmacy name"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "search_pharmacy_by_name",
+         "patterns": [],
+         "responses": ["Loading pharmacy details"],
+         "context": [""]
+        },
+        {"tag": "hospital_search",
+         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
+         "responses": ["Please provide hospital name or location"],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "search_hospital_by_params",
+         "patterns": [],
+         "responses": ["Please provide hospital type"],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "search_hospital_by_type",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        }
+   ]
+}
